@@ -36,7 +36,7 @@ pip install -r requirements.txt
 | --- | --- |
 | `DEEPSEEK_API_KEY` | model API key (required) |
 | `DEEPSEEK_BASE_URL` | API endpoint (default `https://api.deepseek.com`) |
-| `DACV_MODEL_ID` | model identifier (default `deepseek-flash`) |
+| `DACV_MODEL_ID` | model identifier (default `deepseek-v4-flash`) |
 | `DACV_TEMPERATURE` | sampling temperature (default `0.1`) |
 | `SERPER_API_KEY` | only needed with `--use_search` |
 | `DACV_PROMPT_DIR` | optional override for the prompt directory |
