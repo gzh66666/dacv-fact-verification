@@ -136,7 +136,7 @@ unset `DEEPSEEK_API_KEY` aborts the run with an explicit error.
 # placeholders only — set these in your shell, never in the source tree
 $env:DEEPSEEK_API_KEY  = "<YOUR_DEEPSEEK_API_KEY>"
 $env:DEEPSEEK_BASE_URL = "https://api.deepseek.com"
-$env:DACV_MODEL_ID     = "deepseek-flash"
+$env:DACV_MODEL_ID     = "deepseek-v4-flash"
 $env:DACV_TEMPERATURE  = "0.1"
 
 # optional, only for --use_search
