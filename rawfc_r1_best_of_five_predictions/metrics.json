@@ -1,0 +1,18 @@
+{
+  "dataset": "RAWFC",
+  "split": "test",
+  "n": 200,
+  "setting": "R = 1 (one debate round per subclaim)",
+  "run": "highest-scoring run among the five",
+  "accuracy": 0.6700,
+  "macro_precision": 0.6929,
+  "macro_recall": 0.6702,
+  "macro_f1": 0.6722,
+  "half_class_f1": 0.6316,
+  "confusion_matrix": {
+    "rows": ["true", "half", "false"],
+    "columns": ["true", "half", "false"],
+    "counts": [[39, 19, 9], [8, 48, 11], [1, 18, 47]]
+  },
+  "rule_activations": {"R1": 3, "R2": 24, "R3": 1, "R4": 67, "R5": 45, "R6": 15, "R7": 25, "R8": 7, "R9": 3, "R10": 10}
+}
